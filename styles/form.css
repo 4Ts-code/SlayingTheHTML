@@ -1,0 +1,35 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: bolder;
+}
+
+input, textarea{
+    width: 100%;
+    border-radius: 7px;
+    /* border: none; */
+    border: 2px solid rgb(146, 145, 145);
+    padding: 8px;
+    /* flex: 1 1 0%; */
+    font-size: 1em;
+}
+
+button{
+    width: 100px;
+    border: 0 solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: #6a1b9a;
+    padding: 8px 0;
+    cursor: pointer;
+    align-self: center;
+    font-size: 1em;
+}
